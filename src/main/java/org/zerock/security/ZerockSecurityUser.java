@@ -16,6 +16,8 @@ import lombok.Setter;
 @Setter
 public class ZerockSecurityUser extends User {
 	
+	private static final long serialVersionUID = 1L;
+
 	private static final String ROLE_PREFIX = "ROLE_";
 	
 	private Member member;
